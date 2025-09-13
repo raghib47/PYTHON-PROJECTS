@@ -1,0 +1,12 @@
+SUM = 0
+while True:
+    number = int(input("Enter a number: "))
+    if number == "quit":
+        break
+    try:
+        number = int(number)
+    except:
+        print("Invalid input")
+        continue
+    SUM += number
+    print("The sum is: ", SUM)
