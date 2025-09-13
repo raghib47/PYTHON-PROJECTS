@@ -1,0 +1,5 @@
+adj = ["red","blue","green","yellow","pink"]
+fruits = ["apple","banana","orange"]
+for x in adj:
+    for y in fruits:
+        print(x,y)
